@@ -26,3 +26,6 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
+
+    def get_fields(self):
+        return [(field.name, field.value_to_string(self)) for field in Product._meta.fields]

@@ -1,0 +1,29 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'pjt_inventory/style.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'pjt_inventory/skel-noscript.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'pjt_inventory/style-1000px.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'pjt_inventory/style-desktop.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'pjt_inventory/style-mobile.css' %}" />
+<html>
+    <head>
+        <title>Inventory PJT</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/skel.min.js"></script>
+        <script src="js/skel-panels.min.js"></script>
+        <script src="js/init.js"></script>
+        <noscript>
+            <link rel="stylesheet" href="pjt_inventory/css/skel-noscript.css" />
+            <link rel="stylesheet" href="pjt_inventory/css/style.css" />
+            <link rel="stylesheet" href="pjt_inventory/css/style-desktop.css" />
+        </noscript>
+    </head>
+    <body class="homepage">
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
