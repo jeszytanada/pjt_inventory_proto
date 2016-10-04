@@ -1,7 +1,12 @@
 {% extends 'pjt_inventory/base.html' %}
+{% load pjt_inventory_tags %}
 
 {% block content %}
-<h1>{{ product.name }}</h1>
+<h1>{{ product.name }}
+    <a class="btn btn-default btn-sm" href="{% url 'pjt_inventory:product_edit' product.id %}"><span class="glyphicon glyphicon-pencil"></span></a>
+    <a class="btn btn-default btn-sm" href="{% url 'pjt_inventory:product_delete' product.id %}"><span class="glyphicon glyphicon-trash"></span></a>
+</h1>
+
     <table>
         <tr>
             <th>Properties:</th>
@@ -11,10 +16,11 @@
         {% if value %}
         <tr>
             <td>{{ name }}</td>
-            <td>{{ value }}</td>
+            <td>{{ value | get_format }}</td>
         </tr>
         {% endif %}
     {% endfor %}
     </table>
     <br />
+<a class="body" href="{% url 'pjt_inventory:index' %}">Home</a>
 {% endblock content %}

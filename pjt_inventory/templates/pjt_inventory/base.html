@@ -1,9 +1,8 @@
 {% load static %}
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="{% static 'pjt_inventory/style.css' %}" />
-<link rel="stylesheet" type="text/css" href="{% static 'pjt_inventory/skel-noscript.css' %}" />
-<link rel="stylesheet" type="text/css" href="{% static 'pjt_inventory/style-1000px.css' %}" />
-<link rel="stylesheet" type="text/css" href="{% static 'pjt_inventory/style-desktop.css' %}" />
-<link rel="stylesheet" type="text/css" href="{% static 'pjt_inventory/style-mobile.css' %}" />
+<script src="js/menu_pane.js"></script>
 <html>
     <head>
         <title>Inventory PJT</title>
@@ -22,8 +21,59 @@
             <link rel="stylesheet" href="pjt_inventory/css/style-desktop.css" />
         </noscript>
     </head>
-    <body class="homepage">
-        {% block content %}
-        {% endblock %}
-    </body>
+    <body>
+    <div class="page-header">
+        {% if user.is_authenticated %}
+            <h5>Hi, {{ user.username }}.</h5>
+        {% endif %}
+        <h1 align="center"><a href="{% url 'pjt_inventory:index' %}">Product Management</a></h1>
+    </div>
+
+    <ul class="tab">
+      <li><a href="{% url 'pjt_inventory:index' %}" class="tablinks" onclick="openCity(event, 'Product')">Product</a></li>
+      <li><a href="{% url 'pjt_inventory:index' %}" class="tablinks" onclick="openCity(event, 'Manufacturer')">Manufacturer</a></li>
+      <li><a href="{% url 'pjt_inventory:index' %}" class="tablinks" onclick="openCity(event, 'Stock')">Stock</a></li>
+      <li><a href="{% url 'pjt_inventory:index' %}" class="tablinks" onclick="openCity(event, 'Sales')">Sales</a></li>
+    </ul>
+
+    <div id="Product" class="tabcontent">
+      <h3>London</h3>
+      <p>London is the capital city of England.</p>
+    </div>
+
+    <div id="Manufacturer" class="tabcontent">
+      <h3>Paris</h3>
+      <p>Paris is the capital of France.</p>
+    </div>
+
+    <div id="Stock" class="tabcontent">
+      <h3>Tokyo</h3>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
+
+    <div id="Sales" class="tabcontent">
+      <h3>Tokyo</h3>
+      <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <br/><br/>
+     <div class="content container">
+        <div class="row">
+            <a class="btn btn-default btn-sm" href="{% url 'pjt_inventory:product_add' %}"><span class="glyphicon glyphicon-plus"></span></a>
+            <div class="col-md 8">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+
+<div id="container">
+    <div id="content">
+    </div>
+</div>
+<div id="footer">
+    <div class="padding-footer">
+        <p align="right"></p>
+    </div>
+</div>
+</body>
 </html>

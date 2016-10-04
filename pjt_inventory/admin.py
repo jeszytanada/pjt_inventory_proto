@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product
+from .models import Product, Supplier
 # Register your models here.
 class ProductAdmin(admin.ModelAdmin):
     fieldsets = [
@@ -15,3 +15,4 @@ class ProductAdmin(admin.ModelAdmin):
     ]
 
 admin.site.register(Product, ProductAdmin)
+admin.site.register(Supplier)
