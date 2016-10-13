@@ -2,17 +2,16 @@
 {% load pjt_inventory_tags %}
 
 {% block content %}
-<h1>{{ product.name }}
-    <a class="btn btn-default btn-sm" href="{% url 'pjt_inventory:product_edit' product.id %}"><span class="glyphicon glyphicon-pencil"></span></a>
-    <a class="btn btn-default btn-sm" href="{% url 'pjt_inventory:product_delete' product.id %}"><span class="glyphicon glyphicon-trash"></span></a>
+<h1>{{ supplier.name }}
+    <a class="btn btn-default btn-sm" href="{% url 'pjt_inventory:supplier_edit' supplier.id %}"><span class="glyphicon glyphicon-pencil"></span></a>
+    <a class="btn btn-default btn-sm" href="{% url 'pjt_inventory:supplier_contact_list' supplier.id %}"><span class="glyphicon glyphicon-user"></span></a>
 </h1>
-
     <table>
         <tr>
             <th>Properties:</th>
             <th>Value:</th>
         </tr>
-    {% for name, value in product.get_fields %}
+    {% for name, value in supplier.get_fields %}
         {% if value %}
         <tr>
             <td>{{ name }}</td>
@@ -22,5 +21,6 @@
     {% endfor %}
     </table>
     <br />
+<a class="body" href="{% url 'pjt_inventory:supplier_list' %}">Back</a>
 <a class="body" href="{% url 'pjt_inventory:index' %}">Home</a>
 {% endblock content %}

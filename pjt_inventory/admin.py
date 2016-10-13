@@ -1,18 +1,31 @@
 from django.contrib import admin
-from .models import Product, Supplier
+from .models import Product, Supplier, Brand, SupplierContact, Category, SubCategory
 # Register your models here.
 class ProductAdmin(admin.ModelAdmin):
     fieldsets = [
         (None, {'fields': ['name']}),
-        ('Created', {'fields': ['created_date'], 'classes': ['collapse']}),
-        ('Publish Date', {'fields': ['published_date'], 'classes': ['collapse']}),
+        ('Created', {'fields': ['date_created'], 'classes': ['collapse']}),
+        ('Publish Date', {'fields': ['date_publish'], 'classes': ['collapse']}),
         ('Other properties', {
             'classes': ('collapse',),
-            'fields': ('size', 'color', 'quantity', 'manufacturer', 'brand', 'barcode',
-                       'retail_price', 'wholesale_price', 'weight', 'description',
-                       'created_date', 'updated_date'),
+            'fields': ('barcode','brand','supplier','category','sub_category','size_flag','price_cost','price_bought','price_wholesale','price_retail',
+                       'free_shipping','order_min','order_max','desc_header','desc_body','image','remarks','tags','status','date_updated','modified_by'),
+        }),
+    ]
+
+class SupplierAdmin(admin.ModelAdmin):
+    fieldsets = [
+        (None, {'fields': ['supplier_name']}),
+        ('Person', {'fields': ['supplier_contact_person'], 'classes': ['collapse']}),
+        ('Other INFO', {
+            'classes': ('collapse',),
+            'fields': ('supplier_contact','email','created_date','updated_date','modified_by'),
         }),
     ]
 
 admin.site.register(Product, ProductAdmin)
-admin.site.register(Supplier)
+admin.site.register(Supplier, SupplierAdmin)
+admin.site.register(Brand)
+admin.site.register(SupplierContact)
+admin.site.register(Category)
+admin.site.register(SubCategory)

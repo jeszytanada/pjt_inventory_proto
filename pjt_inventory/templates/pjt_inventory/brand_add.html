@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<h3>Add Product</h3>
+<h3>Add Brand</h3>
 
 <form action="" method="POST">
     {% csrf_token %}
@@ -27,7 +27,7 @@
         <strong>{{ error_message3 }}</strong>
     </p>
 {% endif %}
-<a class="body" href="{% url 'pjt_inventory:product_list' %}">Cancel</a>
+<a class="body" href="{% url 'pjt_inventory:brand_list' %}">Cancel</a>
 <t />
 <a class="body" href="{% url 'pjt_inventory:index' %}">Home</a>
 {% endblock %}

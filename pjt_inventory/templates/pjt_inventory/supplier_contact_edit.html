@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<h3>Add Product</h3>
+<h3>Edit Supplier Contact:</h3>
 
 <form action="" method="POST">
     {% csrf_token %}
@@ -18,7 +18,7 @@
             <p class="help">{{ field.help_text|safe }}</p>
         {% endif %}
     {% endfor %}
-    <input type="submit" value="Add" />
+    <input type="submit" value="Update" />
 </form>
 
 
@@ -27,7 +27,5 @@
         <strong>{{ error_message3 }}</strong>
     </p>
 {% endif %}
-<a class="body" href="{% url 'pjt_inventory:product_list' %}">Cancel</a>
-<t />
-<a class="body" href="{% url 'pjt_inventory:index' %}">Home</a>
+<a class="body" href="{% url 'pjt_inventory:supplier_list' %}">Cancel</a>
 {% endblock %}

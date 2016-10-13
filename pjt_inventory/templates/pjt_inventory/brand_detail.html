@@ -1,0 +1,25 @@
+{% extends 'pjt_inventory/base.html' %}
+{% load pjt_inventory_tags %}
+
+{% block content %}
+<h1>{{ brand.name }}
+    <a class="btn btn-default btn-sm" href="{% url 'pjt_inventory:brand_edit' brand.id %}"><span class="glyphicon glyphicon-pencil"></span></a>
+</h1>
+    <table>
+        <tr>
+            <th>Properties:</th>
+            <th>Value:</th>
+        </tr>
+    {% for name, value in brand.get_fields %}
+        {% if value %}
+        <tr>
+            <td>{{ name }}</td>
+            <td>{{ value | get_format }}</td>
+        </tr>
+        {% endif %}
+    {% endfor %}
+    </table>
+    <br />
+<a class="body" href="{% url 'pjt_inventory:brand_list' %}">Back</a>
+<a class="body" href="{% url 'pjt_inventory:index' %}">Home</a>
+{% endblock content %}

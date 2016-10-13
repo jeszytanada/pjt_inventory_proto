@@ -1,0 +1,16 @@
+{% extends 'pjt_inventory/base.html' %}
+
+{% block content %}
+{% if sub_category_list %}
+<ul>
+    {% for sub in sub_category_list %}
+        <li><a href="#">{{ sub.child_name }}</a></li>
+    {% endfor %}
+</ul>
+{% else %}
+    <p>No SubCategory for this Category.</p>
+{% endif %}
+<a class="body" href="{% url 'pjt_inventory:category_list' %}">Back</a>
+<t />
+<a class="body" href="{% url 'pjt_inventory:index' %}">Home</a>
+{% endblock content %}

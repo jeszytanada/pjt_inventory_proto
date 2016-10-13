@@ -20,14 +20,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pjt_inventory/admin.py">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pjt_inventory/static/pjt_inventory/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,24 +37,45 @@
       <list>
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/pjt_inventory/static/css/pjt_inventory.css" />
-        <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/pjt_inventory/templates/admin/base_site.html" />
         <option value="$PROJECT_DIR$/pjt_inventory/templatetags/util.py" />
         <option value="$PROJECT_DIR$/pjt_inventory/templatetags/pjt_inventory_tags.py" />
-        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_list.html" />
-        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/index.html" />
         <option value="$PROJECT_DIR$/pjt_inventory/static/js/menu_pane.js" />
-        <option value="$PROJECT_DIR$/pjt_inventory/forms.py" />
-        <option value="$PROJECT_DIR$/pjt_inventory/static/pjt_inventory/style.css" />
-        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_edit.html" />
-        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/base.html" />
-        <option value="$PROJECT_DIR$/pjt_inventory/urls.py" />
-        <option value="$PROJECT_DIR$/pjt_inventory/views.py" />
-        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_delete.html" />
         <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/detail.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/index_supplier.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_add.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/detail_supplier.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_edit.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_delete.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_delete.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/index.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/brand_add.html" />
         <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_add.html" />
-        <option value="$PROJECT_DIR$/pjt_inventory/models.py" />
+        <option value="$PROJECT_DIR$/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_edit.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/brand_edit.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/brand_delete.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/migrations/0017_auto_20161006_1222.py" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/brand_detail.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_contact_add.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_detail.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_contact_edit.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/category_detail.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/category_add.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/brand_list.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_list.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_list.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_contact_list.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/category_list.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/urls.py" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/category_product.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/views.py" />
         <option value="$PROJECT_DIR$/pjt_inventory/admin.py" />
+        <option value="$PROJECT_DIR$/pjt_inventory/forms.py" />
+        <option value="$PROJECT_DIR$/pjt_inventory/models.py" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_detail.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/base.html" />
+        <option value="$PROJECT_DIR$/pjt_inventory/static/pjt_inventory/style.css" />
       </list>
     </option>
   </component>
@@ -136,6 +155,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templatetags" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inventory_proto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inventory_proto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pjt_inventory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -199,10 +236,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -422,34 +455,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <marker date="1475121500000" expanded="true" signature="0:638" ph="&quot;&quot;&quot;mysite URL Configuration...&quot;&quot;&quot;" />
-            <marker date="1475121500000" expanded="true" signature="639:713" ph="import ..." />
-            <marker date="1475121500000" expanded="true" signature="730:829" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/static/css/pjt_inventory.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6041">
-          <caret line="1018" column="12" selection-start-line="1018" selection-start-column="12" selection-end-line="1018" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pjt_inventory/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -500,56 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-          <folding>
-            <marker date="1475140475000" expanded="true" signature="0:306" ph="&quot;&quot;&quot;Django settings for mysite project....&quot;&quot;&quot;" />
-            <marker date="1475140475000" expanded="true" signature="464:666" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="879:1086" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="1111:1578" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="1624:2128" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="1630:2125" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="1802:2118" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="1838:2107" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="2178:2252" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="2267:2557" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="2284:2555" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="2460:2550" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="2561:2661" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="2691:3085" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="2697:2794" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="2802:2889" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="2897:2985" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="2993:3082" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="3089:3164" ph="..." />
-            <marker date="1475140475000" expanded="true" signature="3268:3368" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/templatetags/pjt_inventory_tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <marker date="1475225327000" expanded="true" signature="0:76" ph="import ..." />
-            <marker date="1475225327000" expanded="true" signature="148:283" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <marker date="1475464273000" expanded="true" signature="86:241" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pjt_inventory/static/js/skel-panels.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -562,10 +517,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1400948798000" expanded="true" signature="80:2363" ph="{...}" />
-            <marker date="1400948798000" expanded="true" signature="94:2362" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -573,21 +525,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1400948798000" expanded="true" signature="163:1023" ph="{...}" />
-            <marker date="1400948798000" expanded="true" signature="164:526" ph="{...}" />
-            <marker date="1400948798000" expanded="true" signature="267:524" ph="{...}" />
-            <marker date="1400948798000" expanded="true" signature="281:403" ph="{...}" />
-            <marker date="1400948798000" expanded="true" signature="357:399" ph="{...}" />
-            <marker date="1400948798000" expanded="true" signature="418:461" ph="{...}" />
-            <marker date="1400948798000" expanded="true" signature="475:521" ph="{...}" />
-            <marker date="1400948798000" expanded="true" signature="528:1022" ph="{...}" />
-            <marker date="1400948798000" expanded="true" signature="539:1016" ph="{...}" />
-            <marker date="1400948798000" expanded="true" signature="551:725" ph="{...}" />
-            <marker date="1400948798000" expanded="true" signature="566:721" ph="{...}" />
-            <marker date="1400948798000" expanded="true" signature="739:1013" ph="{...}" />
-            <marker date="1400948798000" expanded="true" signature="754:1009" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -603,180 +541,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <marker date="1475480241000" expanded="true" signature="42:794" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <marker date="1475482045000" expanded="true" signature="0:156" ph="import ..." />
-            <marker date="1475482045000" expanded="true" signature="193:1171" ph="..." />
-            <marker date="1475482045000" expanded="true" signature="198:334" ph="..." />
-            <marker date="1475482045000" expanded="true" signature="350:551" ph="..." />
-            <marker date="1475482045000" expanded="true" signature="573:1171" ph="..." />
-            <marker date="1475482045000" expanded="true" signature="759:1143" ph="..." />
-            <marker date="1475482045000" expanded="true" signature="827:975" ph="..." />
-            <marker date="1475482045000" expanded="true" signature="1014:1143" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="25" />
-          <folding>
-            <marker date="1475463100000" expanded="true" signature="86:241" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/static/pjt_inventory/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <marker date="1475482883000" expanded="true" signature="43:94" ph="{...}" />
-            <marker date="1475482883000" expanded="true" signature="108:195" ph="{...}" />
-            <marker date="1475482883000" expanded="true" signature="284:376" ph="{...}" />
-            <marker date="1475482883000" expanded="true" signature="638:724" ph="{...}" />
-            <marker date="1475482883000" expanded="true" signature="831:951" ph="{...}" />
-            <marker date="1475482883000" expanded="true" signature="980:1123" ph="{...}" />
-            <marker date="1475482883000" expanded="true" signature="1247:1413" ph="{...}" />
-            <marker date="1475482883000" expanded="true" signature="1653:1748" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="701">
-          <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
-          <folding>
-            <marker date="1475483270000" expanded="true" signature="347:3137" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="358:1325" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="1058:1313" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="1336:3129" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="1366:1579" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="1601:2105" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="2148:2233" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="2281:2358" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="2399:2475" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="2516:2592" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="2644:2959" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="2670:2948" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="2847:2933" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="2981:3022" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="3004:3015" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="3040:3121" ph="..." />
-            <marker date="1475483270000" expanded="true" signature="3073:3114" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <marker date="1475483531000" expanded="true" signature="0:61" ph="import ..." />
-            <marker date="1475483531000" expanded="true" signature="105:774" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding>
-            <marker date="1475483531000" expanded="true" signature="0:343" ph="import ..." />
-            <marker date="1475483531000" expanded="true" signature="397:551" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="514:551" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="582:650" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="684:845" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="808:845" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="879:1312" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="1068:1312" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="1096:1183" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="1197:1312" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="1344:1801" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="1540:1801" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="1574:1671" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="1685:1801" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="1835:2168" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="2005:2168" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="135" selection-start-line="6" selection-start-column="135" selection-end-line="6" selection-end-column="135" />
-          <folding>
-            <marker date="1475483553000" expanded="true" signature="94:415" ph="..." />
-            <marker date="1475483553000" expanded="true" signature="428:742" ph="..." />
-            <marker date="1475483553000" expanded="true" signature="441:516" ph="..." />
-            <marker date="1475483553000" expanded="true" signature="600:692" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_delete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="65" />
-          <folding>
-            <marker date="1475483531000" expanded="true" signature="116:254" ph="..." />
-            <marker date="1475483531000" expanded="true" signature="288:343" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
-          <folding>
-            <marker date="1475483198000" expanded="true" signature="114:599" ph="..." />
-            <marker date="1475483198000" expanded="true" signature="201:419" ph="..." />
-            <marker date="1475483198000" expanded="true" signature="633:688" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <marker date="1475483681000" expanded="true" signature="113:595" ph="..." />
-            <marker date="1475483681000" expanded="true" signature="200:418" ph="..." />
-            <marker date="1475483681000" expanded="true" signature="629:684" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pjt_inventory/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <marker date="1475485902000" expanded="true" signature="0:78" ph="import ..." />
-            <marker date="1475485902000" expanded="true" signature="135:1211" ph="..." />
-            <marker date="1475485902000" expanded="true" signature="977:1042" ph="..." />
-            <marker date="1475485902000" expanded="true" signature="1066:1091" ph="..." />
-            <marker date="1475485902000" expanded="true" signature="1118:1211" ph="..." />
-            <marker date="1475485902000" expanded="true" signature="1242:1890" ph="..." />
-            <marker date="1475485902000" expanded="true" signature="1735:1769" ph="..." />
-            <marker date="1475485902000" expanded="true" signature="1796:1890" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -795,13 +560,600 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/index_supplier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/detail_supplier.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <marker date="1475567134000" expanded="true" signature="117:255" ph="..." />
+            <marker date="1475567134000" expanded="true" signature="289:344" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1475569094000" expanded="true" signature="113:595" ph="..." />
+            <marker date="1475569094000" expanded="true" signature="200:418" ph="..." />
+            <marker date="1475569094000" expanded="true" signature="629:684" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/brand_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1475569094000" expanded="true" signature="111:593" ph="..." />
+            <marker date="1475569094000" expanded="true" signature="198:416" ph="..." />
+            <marker date="1475569094000" expanded="true" signature="627:682" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="56" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="56" />
+          <folding>
+            <marker date="1475646293000" expanded="true" signature="114:599" ph="..." />
+            <marker date="1475646293000" expanded="true" signature="201:419" ph="..." />
+            <marker date="1475646293000" expanded="true" signature="633:688" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/brand_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+          <folding>
+            <marker date="1475646590000" expanded="true" signature="112:597" ph="..." />
+            <marker date="1475646590000" expanded="true" signature="199:417" ph="..." />
+            <marker date="1475646590000" expanded="true" signature="631:686" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/static/pjt_inventory/simple-sidebar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1159">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1469422706000" expanded="true" signature="276:440" ph="{...}" />
+            <marker date="1469422706000" expanded="true" signature="506:807" ph="{...}" />
+            <marker date="1469422706000" expanded="true" signature="888:951" ph="{...}" />
+            <marker date="1469422706000" expanded="true" signature="992:1045" ph="{...}" />
+            <marker date="1469422706000" expanded="true" signature="1082:1192" ph="{...}" />
+            <marker date="1469422706000" expanded="true" signature="1210:1259" ph="{...}" />
+            <marker date="1469422706000" expanded="true" signature="1279:1349" ph="{...}" />
+            <marker date="1469422706000" expanded="true" signature="1375:1461" ph="{...}" />
+            <marker date="1469422706000" expanded="true" signature="1575:1640" ph="{...}" />
+            <marker date="1469422706000" expanded="true" signature="1737:1779" ph="{...}" />
+            <marker date="1469422706000" expanded="true" signature="1805:2221" ph="{...}" />
+            <marker date="1469422706000" expanded="true" signature="2056:2114" ph="{...}" />
+            <marker date="1469422706000" expanded="true" signature="2159:2219" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/migrations/0017_auto_20161006_1222.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1475728185000" expanded="true" signature="0:72" ph="..." />
+            <marker date="1475728185000" expanded="false" signature="73:187" ph="import ..." />
+            <marker date="1475728185000" expanded="true" signature="228:581" ph="..." />
+            <marker date="1475728185000" expanded="true" signature="250:309" ph="..." />
+            <marker date="1475728185000" expanded="true" signature="330:580" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/brand_delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <marker date="1475647128000" expanded="true" signature="115:251" ph="..." />
+            <marker date="1475647128000" expanded="true" signature="284:339" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1475567134000" expanded="true" signature="126:273" ph="..." />
+            <marker date="1475567134000" expanded="true" signature="307:362" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1475554964000" expanded="true" signature="114:596" ph="..." />
+            <marker date="1475554964000" expanded="true" signature="201:419" ph="..." />
+            <marker date="1475554964000" expanded="true" signature="630:685" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <marker date="1475563982000" expanded="true" signature="115:600" ph="..." />
+            <marker date="1475563982000" expanded="true" signature="202:420" ph="..." />
+            <marker date="1475563982000" expanded="true" signature="634:689" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_contact_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1475814361000" expanded="true" signature="124:609" ph="..." />
+            <marker date="1475814361000" expanded="true" signature="211:429" ph="..." />
+            <marker date="1475814361000" expanded="true" signature="643:698" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/brand_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <marker date="1475733223000" expanded="true" signature="94:260" ph="..." />
+            <marker date="1475733223000" expanded="true" signature="272:584" ph="..." />
+            <marker date="1475733223000" expanded="true" signature="285:360" ph="..." />
+            <marker date="1475733223000" expanded="true" signature="442:534" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/category_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_contact_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="14" />
+          <folding>
+            <marker date="1475742759000" expanded="true" signature="122:612" ph="..." />
+            <marker date="1475742759000" expanded="true" signature="209:427" ph="..." />
+            <marker date="1475742759000" expanded="true" signature="646:701" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/category_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="63" selection-start-line="29" selection-start-column="0" selection-end-line="31" selection-end-column="63" />
+          <folding>
+            <marker date="1475823137000" expanded="true" signature="114:605" ph="..." />
+            <marker date="1475823137000" expanded="true" signature="201:419" ph="..." />
+            <marker date="1475823137000" expanded="true" signature="639:694" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="129" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
+          <folding>
+            <marker date="1475830521000" expanded="true" signature="223:386" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/brand_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <marker date="1475830477000" expanded="true" signature="219:372" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <marker date="1475830521000" expanded="true" signature="225:393" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+          <folding>
+            <marker date="1475640772000" expanded="true" signature="0:306" ph="&quot;&quot;&quot;Django settings for mysite project....&quot;&quot;&quot;" />
+            <marker date="1475640772000" expanded="true" signature="464:666" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="879:1086" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="1111:1578" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="1624:2128" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="1630:2125" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="1802:2118" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="1838:2107" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="2178:2252" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="2267:2557" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="2284:2555" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="2460:2550" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="2561:2661" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="2691:3085" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="2697:2794" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="2802:2889" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="2897:2985" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="2993:3082" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="3089:3164" ph="..." />
+            <marker date="1475640772000" expanded="true" signature="3268:3368" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/category_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <marker date="1476153443000" expanded="true" signature="225:394" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <marker date="1476166515000" expanded="true" signature="0:61" ph="import ..." />
+            <marker date="1476166515000" expanded="true" signature="105:2951" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_contact_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <marker date="1475814411000" expanded="true" signature="326:566" ph="..." />
+            <marker date="1475814411000" expanded="true" signature="579:1086" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/category_product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <marker date="1476169170000" expanded="true" signature="91:207" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pjt_inventory/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="150">
+          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1476178239000" expanded="true" signature="0:117" ph="import ..." />
+            <marker date="1476178239000" expanded="true" signature="184:790" ph="..." />
+            <marker date="1476178239000" expanded="true" signature="202:789" ph="..." />
+            <marker date="1476178239000" expanded="true" signature="407:782" ph="..." />
+            <marker date="1476178239000" expanded="true" signature="428:781" ph="..." />
+            <marker date="1476178239000" expanded="true" signature="490:770" ph="..." />
+            <marker date="1476178239000" expanded="true" signature="830:1158" ph="..." />
+            <marker date="1476178239000" expanded="true" signature="848:1157" ph="..." />
+            <marker date="1476178239000" expanded="true" signature="991:1150" ph="..." />
+            <marker date="1476178239000" expanded="true" signature="1006:1149" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <marker date="1476333001000" expanded="true" signature="0:200" ph="import ..." />
+            <marker date="1476333001000" expanded="true" signature="237:2964" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="242:378" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="394:1424" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="462:779" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="802:1424" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="867:1396" ph="'''...'''" />
+            <marker date="1476333001000" expanded="true" signature="1462:1896" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="1478:1789" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="1523:1575" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="1811:1896" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="1931:2282" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="1947:2178" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="1989:2041" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="2200:2282" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="2327:2660" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="2343:2546" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="2568:2660" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="2698:2964" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="2714:2857" ph="..." />
+            <marker date="1476333001000" expanded="true" signature="2879:2964" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templatetags/pjt_inventory_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <marker date="1475225327000" expanded="true" signature="0:76" ph="import ..." />
+            <marker date="1475225327000" expanded="true" signature="148:283" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/supplier_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <marker date="1475811293000" expanded="true" signature="94:425" ph="..." />
+            <marker date="1475811293000" expanded="true" signature="437:752" ph="..." />
+            <marker date="1475811293000" expanded="true" signature="450:525" ph="..." />
+            <marker date="1475811293000" expanded="true" signature="610:702" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="64" column="55" selection-start-line="64" selection-start-column="55" selection-end-line="64" selection-end-column="55" />
+          <folding>
+            <marker date="1476175977000" expanded="true" signature="0:474" ph="import ..." />
+            <marker date="1476175977000" expanded="true" signature="532:775" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="622:775" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="809:970" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="933:970" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="1005:1169" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="1131:1169" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="1201:1356" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="1321:1356" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="1391:2079" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="1517:2079" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="1526:1904" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="2140:2372" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="2273:2372" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="2410:2486" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="2525:2603" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="2639:2711" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="2745:3185" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="2941:3185" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="2969:3056" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="3070:3185" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="3217:3681" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="3420:3681" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="3454:3551" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="3565:3681" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="3715:4048" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="3885:4048" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="4083:4530" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="4283:4530" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="4311:4399" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="4413:4530" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="4563:5010" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="4764:5010" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="4792:4878" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="4892:5010" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="5045:5388" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="5225:5388" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="5420:5846" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="5608:5846" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="5636:5721" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="5735:5846" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="5876:6302" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="6065:6302" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="6093:6176" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="6190:6302" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="6334:6668" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="6505:6668" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="6710:6966" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="6852:6966" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="7008:7252" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="7145:7252" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="7294:7785" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="7516:7785" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="7544:7639" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="7653:7785" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="7825:8316" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="8048:8316" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="8076:8169" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="8183:8316" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="8351:8798" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="8551:8798" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="8579:8667" ph="..." />
+            <marker date="1476175977000" expanded="true" signature="8681:8798" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="131" column="50" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
+          <folding>
+            <marker date="1476340285000" expanded="true" signature="0:115" ph="import ..." />
+            <marker date="1476340285000" expanded="true" signature="146:1490" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="1344:1369" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="1396:1490" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="1518:2288" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="2145:2170" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="2197:2288" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="2319:2871" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="2725:2750" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="2777:2871" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="2905:3309" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="3277:3309" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="3339:5655" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="3507:3612" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="3726:3802" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="5421:5486" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="5510:5535" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="5562:5655" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="5693:6397" ph="..." />
+            <marker date="1476340285000" expanded="true" signature="6366:6397" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/product_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+          <folding>
+            <marker date="1476343481000" expanded="true" signature="94:415" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="428:3086" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="441:516" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="529:620" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="633:726" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="739:827" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="840:933" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="946:1039" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="1052:1142" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="1155:1252" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="1265:1366" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="1379:1487" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="1500:1601" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="1614:1712" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="1725:1824" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="1837:1936" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="1949:2055" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="2068:2165" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="2178:2267" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="2280:2367" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="2380:2471" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="2484:2569" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="2582:2699" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="2712:2829" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="2842:2961" ph="..." />
+            <marker date="1476343481000" expanded="true" signature="2974:3073" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/templates/pjt_inventory/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding>
+            <marker date="1476344180000" expanded="true" signature="526:3926" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="537:1030" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="1041:3918" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="1064:3382" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="1124:2204" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="1161:2189" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="1204:1357" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="1267:1335" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="1378:1464" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="1507:1595" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="1638:1659" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="1767:1872" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="1893:1914" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="2017:2084" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="2105:2171" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="2310:3330" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="2352:3315" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="2386:3296" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="2430:3273" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="3610:3748" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="3770:3811" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="3793:3804" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="3829:3910" ph="..." />
+            <marker date="1476344180000" expanded="true" signature="3862:3903" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pjt_inventory/static/pjt_inventory/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

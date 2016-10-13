@@ -2,19 +2,18 @@
 
 {% block content %}
 
-<h3>Delete Product?</h3>
+<h3>Delete Brand?</h3>
 
 <form action="" method="post">
     {% csrf_token %}
-    <h3>Are you sure you want to delete Product "{{ object }}"?</h3>
+    <h3>Are you sure you want to delete Brand "{{ object }}"?</h3>
     <input type="submit" value="Yes" />
 </form>
-
 
 {% if error_message3 %}
     <p>
         <strong>{{ error_message3 }}</strong>
     </p>
 {% endif %}
-<a class="body" href="{% url 'pjt_inventory:index' %}">Cancel</a>
+<a class="body" href="{% url 'pjt_inventory:brand_list' %}">Cancel</a>
 {% endblock %}

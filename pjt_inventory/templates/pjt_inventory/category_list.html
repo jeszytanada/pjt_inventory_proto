@@ -1,0 +1,15 @@
+{% extends 'pjt_inventory/base.html' %}
+
+{% block content %}
+<a class="btn btn-default btn-sm" href="{% url 'pjt_inventory:category_add' %}"><span class="glyphicon glyphicon-plus"></span></a>
+<br />
+{% if category_list %}
+<ul>
+    {% for category in category_list %}
+        <li><a href="{% url 'pjt_inventory:category_product' category.id %}">{{ category.name }}</a></li>
+    {% endfor %}
+</ul>
+{% else %}
+    <p>No Category available.</p>
+{% endif %}
+{% endblock content %}
