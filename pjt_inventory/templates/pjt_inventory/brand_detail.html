@@ -9,15 +9,34 @@
         <tr>
             <th>Properties:</th>
             <th>Value:</th>
-        </tr>
-    {% for name, value in brand.get_fields %}
-        {% if value %}
         <tr>
-            <td>{{ name }}</td>
-            <td>{{ value | get_format }}</td>
+            <td> Name: </td>
+            <td> {{ brand.name }} </td>
         </tr>
-        {% endif %}
-    {% endfor %}
+        <tr>
+            <td> Description: </td>
+            <td> {{ brand.desc }} </td>
+        </tr>
+        <tr>
+            <td>  is_active: </td>
+            <td> {{ brand.is_active }} </td>
+        </tr>
+        <tr>
+            <td> Date Created: </td>
+            <td> {{ brand.date_created | date:"M d, Y" }} </td>
+        </tr>
+        <tr>
+            <td> Date Updated: </td>
+            <td> {{ brand.date_updated | date:"M d, Y" }} </td>
+        </tr>
+        <tr>
+            <td> Date Published: </td>
+            <td> {{ brand.date_publish | date:"M d, Y" }} </td>
+        </tr>
+        <tr>
+            <td> Modified By: </td>
+            <td> {{ brand.modified_by }} </td>
+        </tr>
     </table>
     <br />
 <a class="body" href="{% url 'pjt_inventory:brand_list' %}">Back</a>

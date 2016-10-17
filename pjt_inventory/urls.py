@@ -42,8 +42,12 @@ urlpatterns = [
     url(r'^supplier_contact_add/$', views.SupplierContactCreate.as_view(), name='supplier_contact_add'),
     # /pjt_inventory/27/supplier_contact_edit
     url(r'^(?P<pk>[0-9]+)/supplier_contact_edit/$', views.SupplierContactEdit.as_view(), name='supplier_contact_edit'),
-    # List pjt_inventory/27/category_product
-    url(r'^(?P<pk>[0-9]+)/category_product', views.SubCategoryListView.as_view(), name='category_product'),
+    # List pjt_inventory/27/category_sub_list
+    url(r'^(?P<pk>[0-9]+)/category_sub_list', views.CategorySubListView.as_view(), name='category_sub_list'),
     # /pjt_inventory/category_add
     url(r'^category_add/$', views.CategoryCreate.as_view(), name='category_add'),
+    # List pjt_inventory/27/category_product
+    url(r'^(?P<pk>[0-9]+)/category_product', views.CategoryProductListView.as_view(), name='category_product'),
+    # /pjt_inventory/27/category_edit
+    url(r'^(?P<pk>[0-9]+)/category_edit/$', views.CategoryEdit.as_view(), name='category_edit'),
 ]

@@ -1,7 +1,5 @@
 from django.db import models
 from django.utils import timezone
-#from .models import Brand, Supplier
-import datetime
 
 class Supplier(models.Model):
     BOOL_CHOICES = ((True, 'Yes'), (False, 'No'))
@@ -50,14 +48,34 @@ class Brand(models.Model):
     def get_fields(self):
         return [(field.name, field.value_to_string(self)) for field in Brand._meta.fields]
 
+class CategoryDescription(models.Model):
+    categories_name = models.CharField(max_length=100)
+    categories_description = models.TextField(null=True, blank=True)
+    tags = models.TextField(null=True, blank=True)
+    date_created = models.DateTimeField(default=timezone.now)
+    date_updated = models.DateTimeField(default=timezone.now)
+    modified_by = models.ForeignKey('auth.User', null=True)
+
+    def __str__(self):
+        return self.categories_name
+
+    def get_fields(self):
+        return [(field.name, field.value_to_string(self)) for field in CategoryDescription._meta.fields]
+
 class Category(models.Model):
-    name = models.CharField(max_length=100)
-    desc = models.TextField(null=True, blank=True)
+    name = models.CharField(max_length=100, null=True)
+    description = models.TextField(null=True, blank=True)
+    is_child = models.BooleanField(default=False)
+    parent = models.ForeignKey("self", default=11)
     image = models.TextField(null=True, blank=True)
     tags = models.TextField(null=True, blank=True)
     date_created = models.DateTimeField(default=timezone.now)
     date_updated = models.DateTimeField(default=timezone.now)
     modified_by = models.ForeignKey('auth.User', null=True)
+    #parent = models.ForeignKey(CategoryDescription, related_name='prime_category', default=0)
+
+    def __unicode__(self):
+        return self.name
 
     def __str__(self):
         return self.name
@@ -65,21 +83,12 @@ class Category(models.Model):
     def get_fields(self):
         return [(field.name, field.value_to_string(self)) for field in Category._meta.fields]
 
-class SubCategory(models.Model):
-    parent_name = models.CharField(max_length=100, blank=True)
-    parent_category = models.ForeignKey(Category, related_name='parent', on_delete=models.SET_NULL, null=True)
-    child_name = models.CharField(max_length=100, blank=True)
-    child_category = models.ForeignKey(Category, related_name='children', on_delete=models.SET_NULL, null=True)
-
-    def __str__(self):
-        return self.parent_name
-
 class Product(models.Model):
     BOOL_CHOICES = ((True, 'active'), (False, 'inactive'))
-    REGULAR = 'RE'
-    SAMPLE = 'SA'
-    TESTER = 'TE'
-    OTHERS = 'OT'
+    REGULAR = 'Regular'
+    SAMPLE = 'Sample'
+    TESTER = 'Tester'
+    OTHERS = 'Others'
 
     SIZE_FLAG_CHOICES = (
         (REGULAR, 'Regular'),
@@ -101,8 +110,7 @@ class Product(models.Model):
     brand = models.ForeignKey(Brand, related_name='brands', on_delete=models.SET_NULL, null=True)
     supplier = models.ForeignKey(Supplier, related_name='suppliers', on_delete=models.SET_NULL, null=True)
     category = models.ForeignKey(Category, related_name='categories', on_delete=models.SET_NULL, null=True)
-    #sub_category = models.ForeignKey(Category, related_name='sub_categories', on_delete=models.SET_NULL, null=True)
-    size_flag = models.CharField(max_length=2, choices=SIZE_FLAG_CHOICES, default=REGULAR)
+    size_flag = models.CharField(max_length=7, choices=SIZE_FLAG_CHOICES, default=REGULAR)
     price_cost = models.FloatField(default=0)
     price_bought = models.FloatField(default=0)
     price_wholesale = models.FloatField(default=0)
@@ -147,3 +155,49 @@ class SupplierContact(models.Model):
 
     def __str__(self):
         return self.first_name
+
+class ProductAttribute(models.Model):
+    COLOR = 'Color'
+    SIZE = 'Size'
+    WEIGHT = 'Weight'
+    TYPE_CHOICES = (
+        (COLOR, 'Color'),
+        (SIZE, 'Size'),
+        (WEIGHT, 'Weight')
+    )
+    product = models.ForeignKey(Product, related_name='product_attr', on_delete=models.SET_NULL, null=True)
+    type = models.CharField(max_length=7, choices=TYPE_CHOICES, default=COLOR)
+    value = models.CharField(max_length=80)
+
+    def __str__(self):
+        return self.product_attr.name
+
+    def get_fields(self):
+        return [(field.name, field.value_to_string(self)) for field in ProductAttribute._meta.fields]
+
+
+class ProductStock(models.Model):
+    product = models.ForeignKey(Product, related_name='product_stock', on_delete=models.SET_NULL, null=True)
+    quantity = models.IntegerField(default=0)
+    date_updated = models.DateTimeField(default=timezone.now)
+
+    def __str__(self):
+        return self.product_stock.name
+
+    def get_fields(self):
+        return [(field.name, field.value_to_string(self)) for field in ProductStock._meta.fields]
+
+
+class ProductStockHistory(models.Model):
+    product = models.ForeignKey(Product, related_name='product_stock_history', on_delete=models.SET_NULL, null=True)
+    quantity = models.IntegerField(default=0)
+    type = models.IntegerField(default=0)
+    reference_type = models.IntegerField(default=0)
+    reference_id = models.IntegerField(default=0)
+    date_created = models.DateTimeField(default=timezone.now)
+
+    def __str__(self):
+        return self.product_stock.name
+
+    def get_fields(self):
+        return [(field.name, field.value_to_string(self)) for field in ProductStockHistory._meta.fields]

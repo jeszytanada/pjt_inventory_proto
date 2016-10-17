@@ -17,16 +17,16 @@
 <hr>
 <h4>Products:</h4>
 {% if category_products %}
-<ul>
+    <ul>
     {% for product in category_products %}
         <li><a href="{% url 'pjt_inventory:product_detail' product.id %}">{{ product.name }}</a></li>
     {% endfor %}
-</ul>
+    </ul>
 {% else %}
     <p>No Product for this Category.</p>
 {% endif %}
-<a class="body" href="{% url 'pjt_inventory:category_list' %}">Back</a>
 <hr>
+<a class="body" href="{% url 'pjt_inventory:category_list' %}">Back</a>
 <a class="body" href="{% url 'pjt_inventory:index' %}">Home</a>
 <hr>
 {% endblock content %}

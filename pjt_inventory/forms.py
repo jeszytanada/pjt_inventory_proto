@@ -2,7 +2,7 @@ from django import forms
 from django.utils import timezone
 from datetime import date
 from django.contrib.auth.models import User
-from .models import Product, Supplier, Brand, SupplierContact, Category
+from .models import Product, Supplier, Brand, SupplierContact, CategoryDescription, Category
 
 class ProductForm(forms.ModelForm):
     #pub_date = forms.DateField(initial=timezone.now())
@@ -11,24 +11,21 @@ class ProductForm(forms.ModelForm):
         model = Product
         exclude = ('id',)
         fields = ['barcode','name','brand','supplier','category','size_flag','price_cost','price_bought','price_wholesale','price_retail',
-                  'free_shipping','order_min','order_max','desc_header','desc_body','image','remarks','tags','status','date_created','date_updated',
-                  'date_publish','modified_by']
+                  'free_shipping','order_min','order_max','desc_header','desc_body','image','remarks','tags','status','date_publish']
 
     def clean(self):
         cleaned_data = super(ProductForm, self).clean()
-        '''
-        pub_date = cleaned_data.get('pub_date')
-        end_date = cleaned_data.get('end_date')
-        if pub_date and end_date:
-            if pub_date < date.today() or end_date <= date.today():
-                msg = "Date cannot be in the past!"
-                self.add_error('pub_date', msg)
-                self.add_error('end_date', msg)
-            elif end_date <= pub_date:
-                msg = "End Date cannot be older or same than the opening date.."
-                self.add_error('end_date', msg)
-        '''
         return cleaned_data
+        # pub_date = cleaned_data.get('pub_date')
+        # end_date = cleaned_data.get('end_date')
+        # if pub_date and end_date:
+        #     if pub_date < date.today() or end_date <= date.today():
+        #         msg = "Date cannot be in the past!"
+        #         self.add_error('pub_date', msg)
+        #         self.add_error('end_date', msg)
+        #     elif end_date <= pub_date:
+        #         msg = "End Date cannot be older or same than the opening date.."
+        #         self.add_error('end_date', msg)
 
 class SupplierForm(forms.ModelForm):
     class Meta:
@@ -37,7 +34,7 @@ class SupplierForm(forms.ModelForm):
             'is_active': forms.RadioSelect
         }
         exclude = ('id',)
-        fields = ['name','desc','tax_num','phone','fax','email','address','city','state','country','zipcode','image','url','tags','is_active','date_created','date_updated','modified_by']
+        fields = ['name','desc','tax_num','phone','fax','email','address','city','state','country','zipcode','image','url','tags','is_active']
 
     def clean(self):
         cleaned_data = super(SupplierForm, self).clean()
@@ -50,7 +47,7 @@ class BrandForm(forms.ModelForm):
             'is_active': forms.RadioSelect
         }
         exclude = ('id',)
-        fields = ['name','desc','image','url','tags','is_active','date_created','date_updated','modified_by']
+        fields = ['name','desc','image','url','tags','is_active']
 
     def clean(self):
         cleaned_data = super(BrandForm, self).clean()
@@ -60,7 +57,7 @@ class SupplierContactForm(forms.ModelForm):
     class Meta:
         model = SupplierContact
         exclude = ('id',)
-        fields = ['first_name','last_name','supplier','email','phone','fax','mobile','dept','notes','date_created','date_updated','modified_by']
+        fields = ['first_name','last_name','supplier','email','phone','fax','mobile','dept','notes']
 
     def clean(self):
         cleaned_data = super(SupplierContactForm, self).clean()
@@ -70,7 +67,8 @@ class CategoryForm(forms.ModelForm):
     class Meta:
         model = Category
         exclude = ('id',)
-        fields = ['name','desc','image','tags','date_created','date_updated','modified_by']
+        #fields = ['categories_name','categories_description','tags','date_created','date_updated','modified_by']
+        fields = ['name', 'description', 'is_child', 'parent', 'image', 'tags']
 
     def clean(self):
         cleaned_data = super(CategoryForm, self).clean()
